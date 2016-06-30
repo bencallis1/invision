@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>InVision</title>
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--FONT-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -13,13 +13,33 @@
     <!--STYLES-->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="./styles/main.css"  rel="stylesheet">
+    <link href="./styles/footer.css"  rel="stylesheet">
 
 
 </head>
 
 <body class="template-index" id="invision-marketplace">
+
+<aside class="slide-out-menu">
+    <ul>
+        <li>Shop</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</aside>
+
 <header class="hero" role="banner">
-    <div class="hero-content">
+    <nav>
+        <div class="HAM">
+            <img src="./img/HAM-IMG.png" alt="Menu">
+        </div>
+        <ul class="nav-links">
+            <li>Shop</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="hero-content ">
         <h1 class="hero-title">
             <svg height="163.2" viewbox="0 0 516 163.2" width="516" xmlns=
                 "http://www.w3.org/2000/svg">
@@ -120,7 +140,7 @@
     </div>
 </header>
 
-<main role="main" role="main">
+<main role="main" >
     <section class="product-wrapper">
         <a id="shop" name="shop"></a>
         <ul class="products" id="products">
