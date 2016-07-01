@@ -10,6 +10,9 @@
     <!--FONT-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
+    <!--CSS FRAMEWORK-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
     <!--STYLES-->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="./styles/main.css"  rel="stylesheet">
@@ -19,8 +22,10 @@
 </head>
 
 <body class="template-index" id="invision-marketplace">
+<div class="curtain hide-curatin"></div>
 
-<aside class="slide-out-menu">
+<aside class="slide-out-menu hide">
+    <i class="close fa fa-times" aria-hidden="true" id="close"></i>
     <ul>
         <li>Shop</li>
         <li>About</li>
@@ -30,7 +35,7 @@
 
 <header class="hero" role="banner">
     <nav>
-        <div class="HAM">
+        <div class="HAM" id="ham" data-menu="hide">
             <img src="./img/HAM-IMG.png" alt="Menu">
         </div>
         <ul class="nav-links">
@@ -559,7 +564,7 @@
 </footer>
 
 
-
+<script src="./js/main.js"></script>
 
 </body>
 
